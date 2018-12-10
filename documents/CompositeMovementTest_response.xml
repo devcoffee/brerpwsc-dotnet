@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:compositeOperationResponse xmlns:ns1="http://idempiere.org/ADInterface/1_0">
+      <CompositeResponses xmlns="http://idempiere.org/ADInterface/1_0">
+        <CompositeResponse>
+          <StandardResponse RecordID="1000012">
+            <outputFields>
+              <outputField column="M_Movement_ID" value="1000012">
+              </outputField>
+            </outputFields>
+          </StandardResponse>
+          <StandardResponse RecordID="1000012">
+            <outputFields>
+              <outputField column="M_MovementLine_ID" value="1000012">
+              </outputField>
+            </outputFields>
+          </StandardResponse>
+          <StandardResponse RecordID="1000012" IsError="false">
+          </StandardResponse>
+        </CompositeResponse>
+      </CompositeResponses>
+    </ns1:compositeOperationResponse>
+  </soap:Body>
+</soap:Envelope>

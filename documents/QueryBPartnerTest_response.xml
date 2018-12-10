@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:queryDataResponse xmlns:ns1="http://idempiere.org/ADInterface/1_0">
+      <WindowTabData xmlns="http://idempiere.org/ADInterface/1_0" NumRows="2" TotalRows="5" StartRow="1">
+        <DataSet>
+          <DataRow>
+            <field column="C_BPartner_ID">
+              <val>50004</val>
+            </field>
+            <field column="Name">
+              <val>Store Central</val>
+            </field>
+          </DataRow>
+          <DataRow>
+            <field column="C_BPartner_ID">
+              <val>50007</val>
+            </field>
+            <field column="Name">
+              <val>Store North</val>
+            </field>
+          </DataRow>
+        </DataSet>
+        <RowCount>2</RowCount>
+        <Success>true</Success>
+      </WindowTabData>
+    </ns1:queryDataResponse>
+  </soap:Body>
+</soap:Envelope>
