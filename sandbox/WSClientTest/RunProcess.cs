@@ -129,6 +129,10 @@ namespace sandbox
             {
                 Console.WriteLine(e.ToString());
             }
+            finally
+            {
+                Console.ReadLine();  //Impede o Console de fechar automaticamente
+            }
         }
     }
 }
