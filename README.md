@@ -38,13 +38,13 @@ A janela parâmetros de Serviço Web, é uma aba filha da janela  *Serviços de 
 - **RecordID**: Parâmetro free, ou seja, pode ser passado qualquer valor na requisição;
 - **Action**: Parâmetro constante e contém o tipo de operação que o Web Service realizará no banco de dados. Como em nosso exemplo iremos *inserir* um *Parceiro de Negócios*, seu valor será **Insert**.
 
-![](documents/ParametroDeServicoWebCompleto.png)
+![](documents/ParametroDeServicoWebCompleto.PNG)
 
 
 #### Entrada de Serviço Web
 É onde devemos informar quais colunas da tabela terão dados inseridos ou modificados pelo WebService. Em nosso caso, utilizaremos as colunas basicas necessárias para cadastrar um *Parceiro de Negócios*
 
-![](documents/EntradaDeServicoWebCompleto.png)
+![](documents/EntradaDeServicoWebCompleto.PNG)
 
 #### Resultado de Serviço Web
 São as colunas que terão dados retornados pelo Web Service. Como nosso Web Service nesse exemplo é para a criação e não para a consulta, não adicionaremos dados nessa janela.
@@ -53,7 +53,7 @@ São as colunas que terão dados retornados pelo Web Service. Como nosso Web Ser
 São os perfis que tem permissão para fazer essa requisição. Lembrando que, no BrERP, toda requisição necessita ser autenticada (Login).
 
 Segue abaixo, o print do Web Service configurado:
-![](documents/CreateBPartnerConfigurado.PNG)Mundo do Café S/A Admin
+![](documents/CreateBPartnerConfigurado.png)Mundo do Café S/A Admin
 
 
 Uma vez configurado nosso Web Service para criação de Parceiro de Negócios no BrERP, podemos desenvolver uma simples aplicação, utilizando a biblioteca **brerpwsc-dotnet**, para interagir com ele.
@@ -226,4 +226,4 @@ Time: 1016
 
 Após executar esta simples aplicação, procurarmos pelo Parceiro de Negócio, notaremos que o mesmo foi criado com sucesso:
 
-![](documents/ParceiroCriado.png)
+![](documents/ParceiroCriado.PNG)
