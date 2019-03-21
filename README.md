@@ -227,3 +227,5 @@ Time: 1016
 Após executar esta simples aplicação, procurarmos pelo Parceiro de Negócio, notaremos que o mesmo foi criado com sucesso:
 
 ![](documents/ParceiroCriado.PNG)
+
+
